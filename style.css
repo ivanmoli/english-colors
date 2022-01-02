@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;font-family: 'Permanent Marker', cursive;
+    margin-bottom: 0;
+}
+
+h2 {
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+}
+
+.primarios,
+.secundarios,
+.terciarios {
+    display: flex;
+    justify-content: center;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5px;
+    text-transform: uppercase;
+    border: solid 3px white;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+.rojo {
+    border-color: darkred;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.amarillo {
+    border-color: yellow;
+    background-color: gold;
+    color: white;
+    transition: 0.5s;
+}
+
+.azul {
+    border-color: darkblue;
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+.verde {
+    border-color:darkgreen;
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+
+.violeta {
+    border-color: purple;
+    background-color: fuchsia;
+    color: white;
+    transition: 0.5s;
+}
+
+.naranja {
+    border-color: darkorange;
+    background-color: orange;
+    color: white;
+    
+}
+
+.blanco {
+    transition: 0.5s;
+}
+
+.negro {
+    border-color: white;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.gris {
+    border-color: lightgray;
+    background-color: dimgray;
+    color: white;
+    transition: 0.5s;
+}
